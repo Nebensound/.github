@@ -8,8 +8,9 @@ writes it.
 
 ## What belongs here
 
-- Only files that GitHub inherits from a repository named `.github`. Anything
-  else belongs in the repository it concerns.
+- Only files that GitHub inherits from a repository named `.github`, plus this
+  repository's own housekeeping files. Anything else belongs in the repository
+  it concerns.
 - Callable workflows do not live here. They live in the central pipeline
   repository.
 - Keep the inherited files generic. A repository that needs something specific

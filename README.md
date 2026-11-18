@@ -10,7 +10,8 @@ it is for and what belongs in it.
 
 ## What belongs here
 
-Only what GitHub inherits from a repository of this name:
+Only what GitHub inherits from a repository of this name, plus this
+repository's own housekeeping files:
 
 - issue forms and the pull request template,
 - community health files such as the code of conduct, the contributing guide
@@ -23,8 +24,8 @@ Only what GitHub inherits from a repository of this name:
 - Secrets, tokens or credentials.
 - Internal host names or anything else that is not meant to be public.
 - Proprietary code.
-- Callable workflows. They live in the pipeline repository and are called from
-  there; a workflow stored here is not callable by the organization.
+- Callable workflows. They live in the pipeline repository, and every
+  repository calls them from there.
 
 The repository has to stay public, because GitHub does not perform the
 inheritance otherwise. Everything in it, including its history, is readable by

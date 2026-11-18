@@ -7,11 +7,11 @@ problem.
 
 Use GitHub's private vulnerability reporting: open the **Security** tab of the
 affected repository and choose **Report a vulnerability**. If the tab offers no
-such option, open a **Bug** issue whose fields only say "Private contact
-requested" and contain no details about the problem.
+such option, open a **Bug** issue whose title and fields only say "Private
+contact requested" and contain no details about the problem.
 
-Include what you found, how to reproduce it and which version or commit is
-affected. Never include real secrets or personal data.
+In the private report, include what you found, how to reproduce it and which
+version or commit is affected. Never include real secrets or personal data.
 
 ## What to expect
 

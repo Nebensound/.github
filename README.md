@@ -5,8 +5,9 @@ request template, community health files and workflow templates.
 
 GitHub reads a public repository named `.github` and applies its community
 files to every repository of the organization that does not bring its own. The
-files themselves arrive with later changes; this repository first states what
-it is for and what belongs in it.
+issue forms, the pull request template, the contributing guide, the security
+policy and the organization profile are here; workflow templates follow in a
+later change.
 
 ## What belongs here
 

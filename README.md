@@ -38,6 +38,7 @@ anyone.
 2. **Issue forms are not merged.** A repository with its own `ISSUE_TEMPLATE`
    folder replaces the inherited set as a whole, so it has to bring the full
    set it wants to offer.
+   A repository with a single local form therefore offers only that form.
 3. **Inherited files appear in no clone.** They exist only on GitHub and show
    up in the web interface. A file that has to be in the working tree, for
    example for a local check, must be committed to that repository itself.

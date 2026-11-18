@@ -5,8 +5,9 @@ request template, community health files and workflow templates.
 
 GitHub reads a public repository named `.github` and applies its community
 files to every repository of the organization that does not bring its own. The
-files themselves arrive with later changes; this repository first states what
-it is for and what belongs in it.
+issue forms, the pull request template, the contributing guide, the security
+policy and the organization profile are here; workflow templates follow in a
+later change.
 
 ## What belongs here
 
@@ -38,6 +39,9 @@ anyone.
 2. **Issue forms are not merged.** A repository with its own `ISSUE_TEMPLATE`
    folder replaces the inherited set as a whole, so it has to bring the full
    set it wants to offer.
+   This includes `config.yml`: a repository with a single local form offers
+   only that form when it also brings a `config.yml` with
+   `blank_issues_enabled: false`; otherwise the blank issue stays available.
 3. **Inherited files appear in no clone.** They exist only on GitHub and show
    up in the web interface. A file that has to be in the working tree, for
    example for a local check, must be committed to that repository itself.

@@ -1,0 +1,59 @@
+name: Bug
+description: "Report something that does not work as intended."
+title: "bug: "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Keep one issue to one independently mergeable piece of work. Never paste
+        secrets, credentials or personal data.
+  - type: textarea
+    id: goal
+    attributes:
+      label: Goal
+      description: "What is broken, and what should hold instead?"
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: Context and evidence
+      description: "How it was found: steps to reproduce, expected and actual behaviour, versions, logs or error text. Do not paste secrets."
+    validations:
+      required: true
+  - type: textarea
+    id: scope
+    attributes:
+      label: Scope
+      description: "What this issue changes, as a list."
+  - type: textarea
+    id: out-of-scope
+    attributes:
+      label: Out of scope
+      description: "What is deliberately left to other issues."
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: Acceptance criteria
+      description: "Checkable statements, one per line, each as a task list item."
+      placeholder: "- [ ] ..."
+  - type: textarea
+    id: production-evidence
+    attributes:
+      label: Production evidence
+      description: "What proves the result in a real environment, for example a screenshot, a log or an API read-back."
+  - type: input
+    id: milestone
+    attributes:
+      label: Milestone
+      description: "Title of the milestone this issue belongs to, if one fits."
+  - type: input
+    id: blocked-by
+    attributes:
+      label: Blocked by
+      description: "Issues that must be done first, as references such as `owner/repo#12`. Leave empty if none."
+  - type: input
+    id: blocking
+    attributes:
+      label: Blocking
+      description: "Issues that wait for this one, as references such as `owner/repo#12`. Leave empty if none."

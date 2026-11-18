@@ -26,30 +26,22 @@ body:
     attributes:
       label: Scope
       description: "What this issue changes, as a list."
-    validations:
-      required: true
   - type: textarea
     id: out-of-scope
     attributes:
       label: Out of scope
       description: "What is deliberately left to other issues."
-    validations:
-      required: true
   - type: textarea
     id: acceptance
     attributes:
       label: Acceptance criteria
       description: "Checkable statements, one per line, each as a task list item."
       placeholder: "- [ ] ..."
-    validations:
-      required: true
   - type: textarea
     id: production-evidence
     attributes:
       label: Production evidence
       description: "What proves the result in a real environment, for example a screenshot, a log or an API read-back."
-    validations:
-      required: true
   - type: input
     id: milestone
     attributes:

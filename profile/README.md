@@ -3,7 +3,7 @@
 Nebensound builds and maintains software and automation, and shares the public
 part of it here.
 
-- Every repository follows the same contribution rules: see the
+- Unless a repository brings its own, these contribution rules apply: see the
   [contributing guide](https://github.com/Nebensound/.github/blob/main/CONTRIBUTING.md).
 - Found a security problem? Follow the
   [security policy](https://github.com/Nebensound/.github/blob/main/SECURITY.md).

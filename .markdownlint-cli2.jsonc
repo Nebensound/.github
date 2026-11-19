@@ -1,0 +1,12 @@
+{
+  // A repository's own configuration replaces the pipeline's default whole, so
+  // the default's one rule is repeated here: Prettier does not wrap prose, so a
+  // line length is not a rule it could keep.
+  "config": {
+    "MD013": false,
+    // The pull request template is the body of a pull request, which GitHub
+    // shows under its own title: a first line that is a top-level heading would
+    // repeat it. The template starts on a second-level heading on purpose.
+    "MD041": false,
+  },
+}

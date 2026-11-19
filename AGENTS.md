@@ -36,6 +36,6 @@ writes it.
 
 - Markdown is formatted with Prettier and linted with markdownlint, YAML with
   yamllint, TOML with Taplo.
-- Until the repository calls the central pipeline, the pull request states the
-  local results of these checks and names every check that could not be run
-  with its reason.
+- The central pipeline runs these checks on every pull request;
+  `nebensound / Check` is the gate. Run them locally before pushing and name
+  every check that could not be run with its reason.

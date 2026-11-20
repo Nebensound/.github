@@ -3,7 +3,7 @@ name: nebensound
 # This repository calls the central pipeline for its checks.
 #
 # The pipeline has no release yet, so the workflow is pinned to a full commit of
-# its `main`: c813472f6591a1e06e66ed77ec39d26cb061cf4a, committed on 2026-11-19.
+# its `main`: 47a4e6b7969cbeda7ad9a945ae947b470e516026, committed on 2026-11-20.
 # The pin moves to a released version with the full switch.
 
 on:
@@ -17,6 +17,6 @@ permissions:
 
 jobs:
   nebensound:
-    uses: Nebensound/pipeline/.github/workflows/nebensound.yml@c813472f6591a1e06e66ed77ec39d26cb061cf4a
+    uses: Nebensound/pipeline/.github/workflows/nebensound.yml@47a4e6b7969cbeda7ad9a945ae947b470e516026
     permissions:
       contents: read
